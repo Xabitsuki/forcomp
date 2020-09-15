@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/xrubiato/Desktop/forcomp/src/test/scala/forcomp/AnagramsSuite.scala:33:10: ';' expected but '@' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  Ignore @Test def `subtract: lard - r (10pts)`: Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/xrubiato/Desktop/forcomp/src/test/scala/forcomp/AnagramsSuite.scala:41:9: ';' expected but '@' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  Ignore@Test def `combinations: [] (8pts)`: Unit =[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

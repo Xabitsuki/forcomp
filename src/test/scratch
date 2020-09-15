@@ -1,0 +1,22 @@
+[error] Test forcomp.AnagramsSuite.combinations: abba (8pts) failed: java.lang.AssertionError:
+expected:<HashSet(
+List((a,1)),
+List((a,1), (b,1)),
+List((a,2), (b,2)),
+List(),
+List((b,1)),
+List((b,2)),
+List((a,1), (b,2)),
+List((a,2)),
+List((a,2), (b,1)))>
+but was:<Set()>, took 0.003 sec
+
+[error]     at forcomp.AnagramsSuite.combinations: abba (8pts)(AnagramsSuite.scala:57)
+
+
+
+
+val possibilities : List[Occurrences] = for ((c, nc) <- occurrences) yield { for (i<- 1 to nc) yield (c,i)}.toList
+
+[error] Test forcomp.AnagramsSuite.combinations: abba (8pts) failed: java.lang.AssertionError: expected:<HashSet(
+List((a,1)), List((a,1), (b,1)), List((a,2), (b,2)), List(), List((b,1)), List((b,2)), List((a,1), (b,2)), List((a,2)), List((a,2), (b,1)))> but was:<Set(List((b,1), (a,1), (a,2)), List((b,2), (a,1), (a,2)), List((a,1), (a,2)))>, took 0.194 sec
